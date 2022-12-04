@@ -1,0 +1,343 @@
+/*----header style------*/
+.header{
+	
+	background-color:#f8f9fa!important;
+}
+
+
+h1.logo > a{
+	color:black;
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:600;
+	display:inline-block;
+	text-decoration:none;
+}
+/*------header ends------*/
+
+
+
+/*======intro2 starts======*/
+.intro2{
+	background-color:#412e68e6;
+	color:white;
+	
+}
+.tag i{
+		
+		font-size:23px;
+		
+	}
+	.badge.rounded-pill{
+	background-color:#5624bccf;
+	
+}
+
+/*======intro2 ends====*/
+
+
+
+
+/*======intro3 starts=======*/
+
+
+.intro3{
+background-color:#f8f9fa!important;
+}
+
+	
+/*====intro3 ends=====*/
+	
+	
+	
+	
+
+/*======intro4 starts=======*/
+
+.about ul li{
+	position:relative; 
+	padding: 3px 0px 8px;
+	list-style:none;
+
+}
+.about ul li i{
+	position:absolute;
+	left:-26px;
+	top:6px;
+	color:blue;
+}
+
+.line{
+	  width: 45px;
+    height: 3px;
+    background-color: #cccc;
+    margin: 10px 0 10px 625px;
+}
+
+/*====intro4 ends=====*/
+
+/*------intro5 style start------*/
+
+
+.dash{
+	 border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-color: #ccc;
+}
+
+.dash1{
+	  border-left-style: solid;
+    border-right-style: solid;
+	  border-width: 1px;
+	border-color:#ccc;
+}
+.dash2{
+	border-bottom-style: solid;
+	  border-width: 1px;
+	border-color:#ccc;
+	
+}
+
+
+
+/*------intro5 style ends-----*/
+
+
+
+/*==========intro6 strats=========*/
+
+
+.intro6{
+	background-color:#412e68e6;
+	color:white;
+}
+.box{
+	border: 1px solid #ebebeb;
+    background-color: white;
+	border-radius:5px;
+	color:black;
+	
+	
+}
+.box i{
+	display: inline-block;
+    font-size: 32px;
+	margin-top:30px;
+    background-color: #cccc;
+    height: 60px;
+    width: 60px;
+	color:black;
+    line-height: 60px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+
+/*===========intro6 style ends========*/
+
+
+
+
+/*===========intro8 style ends========*/
+
+.intro8{
+	
+	background-color:#f8f9fa!important;
+	
+}
+
+
+.box1 img{
+	width:60px;
+	height:60px;
+	border-radius:50%;	
+}
+	
+.box1{
+
+background-color:white;
+
+    box-shadow: 0 0 5px 0 #ccc
+
+}	
+	
+	.dots .dot-circle{
+		width:10px;
+		height:10px;
+		display:inline-block;
+		border-radius:50%;
+		background-color:#ccc;
+		cursor:pointer;
+		margin:0 3px;
+		border:1px solid blue;
+	}
+
+
+/*===========intro8 style ends========*/
+
+
+/*----------intro10 style start------*/
+.price1{
+	
+background-color:#fff;
+border-radius:5px;
+box-shadow:0 0 5px 0 #ccc;
+}
+
+.price2{
+	
+	background-color:#412e68e6;
+	border-radius:5px;
+box-shadow:0 0 5px 0 #ccc;
+line-height: 48px;
+	
+}
+
+span > b{
+	font-size:25px;
+	
+	
+}
+
+/*---------intro10 style end------*/
+
+
+/*----------intro11 style start------*/
+
+
+.faq{
+	
+	border-bottom-style: solid;
+    border-color: #cccc;
+    border-width: 1px;
+}
+
+
+
+
+
+/*----------intro11 style send------*/
+
+
+
+/*------intro12 style start------*/
+.address{
+	
+	background-color:white;
+	box-shadow:0 0 5px 0 #ccc;
+	
+}
+.address  i{
+	  font-size: 23px;
+    color: blue;
+    padding-bottom: 8px;
+		
+	
+}
+
+.form-control {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ced4da;
+    padding: 15px;
+    color: #212529;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+}
+
+
+.textarea.form-control {
+    height: 150px;
+    resize: none;
+}
+
+.address p{
+	
+	margin-bottom:0;
+	
+}
+
+/*-------intro12 style ends------*/
+
+
+/*-------intro13 sectio starts-----*/
+
+.footer p{
+	
+	margin-bottom:0;
+	
+}
+.footer ul > li > a{
+	text-decoration:none;
+	color:#6c757d!important;
+	padding:10px 0;
+	
+}
+.footer li > a > i{
+	margin-right:9px;
+	
+}
+
+.subscrpition-form {
+    position: relative;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 6px 100px 6px 8px;
+}
+
+.subscrpition-form input {
+    width: 100%;
+    height: 36px;
+    border: 1px solid white;
+}
+.Subscribe-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    min-width: 100px;
+    padding: 5px 10px;
+    background-color: Blue;
+	
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+} 	
+	
+.footer-box3 p{
+	
+	color:#6c757d!important;
+}
+/*-------intro13 style ends------*/
+
+
+
+/*-----intro14 style start----*/
+	
+	
+.social-media-icon a{
+	display:inline-block;
+	font-size:18px;
+	color:blue;
+	background-color:#6c757d;
+	width:35px;
+	height:35px;
+	line-height:35px;
+	border-radius:4px;
+	text-align:center;
+	margin-right:7px;
+	transition:all 0.3s ease;
+}
+
+.credits > p > a{
+	
+	text-decoration:none;
+}
+</*-----intro14 style ends----->
