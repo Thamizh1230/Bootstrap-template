@@ -1,7 +1,14 @@
 /*----header style------*/
 .header{
 	
-	background-color:#f8f9fa!important;
+	
+	  background-color: #f6f7ff;
+    border-bottom: 2px solid #eceefe;
+	 position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+	z-index:100;
 }
 
 h1.logo{
@@ -17,6 +24,11 @@ h1.logo{
 	
 }
 
+.nav-item > .nav-link:hover{
+	
+	color:#0d6efd;
+		
+} 
 
 h1.logo > a{
 	
@@ -27,8 +39,20 @@ h1.logo > a{
 	.get-start1{
 		
 	background-color: #e2e5fe;
-    padding: 8px 20px;
-		    color: #3b4ef8;
+	padding: 8px 28px;
+	color: #3b4ef8;
+			
+    margin-left: 30px;
+
+		
+	}
+	
+	
+	.get-start1:hover{
+		
+		    color: #fff;
+    background: #3b4ef8;
+		
 		
 	}
 /*------header ends------*/
@@ -72,21 +96,38 @@ h1.logo > a{
 }
 .tag i{
 		
-	  font-size: 35px;
+	font-size: 34px;
     color: #b6bdfc;
    
 		
 	}
+	
+.tag .h5{
+	font-size: 20px;
+    font-weight: 700;
+
+}	
+.intro2-p .h1{
+	 font-weight: 700;
+    font-size: 34px;
+}
+	
 	.badge.rounded-pill{
-	background: rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.05);
+	    padding: 10px 32px 13px 32px;
 
 }
 
+.badge.rounded-pill:hover{
+	background: rgba(255, 255, 255, 0.1);	
+	
+}
 
 .badge{
 	
 	font-size:16px;
-	
+	cursor:pointer;
+	transition: 0.3s;
 }
 
 /*======intro2 ends====*/
@@ -101,7 +142,17 @@ h1.logo > a{
 background-color:#f8f9fa!important;
 }
 
+.clinet-logo{
 	
+	padding: 20px 50px;
+	
+}
+	.clinet-logo img:hover{
+		
+		transform:scale(1.15)
+		
+		
+	}
 /*====intro3 ends=====*/
 	
 	
@@ -120,14 +171,24 @@ background-color:#f8f9fa!important;
 	position:absolute;
 	left:-26px;
 	top:6px;
-	color:blue;
+	color:#3b4ef8;
+}
+.about{
+	line-height: 25px;
+	
+}
+
+
+.about .h4{
+    font-weight: 600;
+    font-size: 26px;
 }
 
 .line{
 	  width: 45px;
     height: 3px;
     background-color: #cccc;
-    margin: 10px 0 10px 625px;
+    margin: 10px auto;
 }
 
 .features{
@@ -220,7 +281,7 @@ background-color:#f8f9fa!important;
 .box:hover{
 	
 	    transform: scale(1.08);
-	
+		    transition: 0.3s;
 }
 
 .box i{
@@ -450,24 +511,28 @@ margin-bottom:0;
 
 
 .team-member .team-info {
-    opacity: 0;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+	
+   /*  opacity: 0;
     position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
     transform:translateY(20px);
-	 transition: all 0.5s ease;
+	 transition: all 0.5s ease; */
 
 }
 
 
-.team-member .team-info .member-info-content {
+/* .team-member .team-info .member-info-content {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 40px;
-}
+} */
 
 .team-member .member-info-content h4 {
     font-weight: 700;
@@ -484,14 +549,12 @@ margin-bottom:0;
 }
 
 
-.team-member .social {
-    position: absolute;
-    left: 0;
-    bottom: -26px;
-    right: 0;
-    height: 48px;
-    transition: bottom ease-in-out 0.4s;
+.team-member .team-info  .social {
+ 
+    transition:all 0.5s ease .2s;
+	transform:translateY(10px);
     text-align: center;
+	padding:10px 0;
 }
 
 .team-member .social a {
@@ -507,21 +570,24 @@ margin-bottom:0;
 }
 
 .team-member:hover .team-info {
+	
+	
     background: linear-gradient(0deg, rgba(12, 17, 26, 0.9) 0%, rgba(20, 29, 43, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
     opacity: 1;
     transition: 0.4s;
 	transform:translateY(0);
-	  transition: all 0.5s ease;
+	transition: all 0.5s ease;
 
 }
 /*---------intro9 style ends------*/
 
 
 
+.team-member:hover .team-info .social	{
 
 
 
-
+}
 
 
 
@@ -532,22 +598,70 @@ margin-bottom:0;
 background-color:#fff;
 border-radius:5px;
 box-shadow:0 0 5px 0 #ccc;
+padding:46px;
+line-height:40px;
 }
 
+.price1 p{
+	
+	margin-bottom:0;
+	
+}
 .price2{
 	
-	background-color:#412e68e6;
+	background-color:#466393;
 	border-radius:5px;
 box-shadow:0 0 5px 0 #ccc;
-line-height: 48px;
+line-height:38px;
+padding:46px;
 	
 }
 
-span > b{
-	font-size:25px;
+.price2 p{
+	
+	margin-bottom:0;
+	
+}
+
+.price1-btn{
+	
+    background: #eceefe;
+    color: #3b4ef8;	
+	padding: 10px 40px 12px 40px;
+	margin-top:30px;
+}
+
+.price1-btn:hover{
+	    background: #3b4ef8;
+    color: #fff;
 	
 	
 }
+
+
+.price2-btn{
+	
+	background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+	padding: 10px 40px 12px 40px;
+	margin-top:40px;
+}
+	
+
+.price2-btn:hover{
+	background-color: #fff;
+   color: #3b4ef8;
+
+}
+span > b{
+	font-size:40px;
+	
+	
+}
+
+
+
+
 
 /*---------intro10 style end------*/
 
@@ -555,16 +669,85 @@ span > b{
 /*----------intro11 style start------*/
 
 
-.faq{
+
+.faq-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2d405f;
 	
-	border-bottom-style: solid;
-    border-color: #cccc;
-    border-width: 1px;
+}
+
+
+.faq {
+	
+	border-bottom: 1px solid #eceefe;
+	
+}
+ .accordion-item {
+	border:none;
+  
+}
+
+.accordion-body {
+     padding: 1px 50px 20px 25px;
+    font-size: 17px;
+}
+
+
+
+.accordion-button{
+	font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+	cursor:pointer;
+	transition:0.3s;
+	color:black
+	
+	
 }
 
 
 
 
+
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+    transform: rotate(-180deg);
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+ 
+    content: "";
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+	background-color:white;
+	box-shadow:none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow:none;
+
+}
+
+.accordion-button:focus {
+	border-color:none;
+}
 
 /*----------intro11 style send------*/
 
