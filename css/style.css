@@ -11,6 +11,20 @@
 	z-index:100;
 }
 
+
+.menu-btn{
+	
+    position: absolute;
+    top: 15px;
+    right: 13px;
+    font-size: 25px;
+    color: white;
+    background-color: transparent;
+    border: 0;
+}
+
+
+
 h1.logo{
 	
 	font-size: 30px;
@@ -60,6 +74,20 @@ h1.logo > a{
 
 /*------------intro style starts------*/
 
+.intro-image img{
+	
+	 width:100%;
+	height:auto; 
+	padding-top:40px;
+	
+}
+
+.title{
+	
+	padding-top:100px;	
+	
+}
+
 
 .title h1{
 	
@@ -71,7 +99,7 @@ h1.logo > a{
 		}
 .title h2{
 	margin: 15px 0 25px 0 ;
-    font-size: 24px;
+    font-size: 23px;
     color: #2d405f;	
 	
 }
@@ -504,10 +532,8 @@ margin-bottom:0;
 .team-member{
 	text-align: center;
     margin-bottom: 20px;
-   /*  position: relative; */
+     position: relative;
     overflow: hidden;
-	/* background-color: linear-gradient(0deg, rgba(12, 17, 26, 0.9) 0%, rgba(20, 29, 43, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
-	transform:translateY(0); */
 	transition: all 0.5s ease .2s;
 }
 
@@ -516,25 +542,23 @@ margin-bottom:0;
 	display:flex;
 	flex-direction:column;
 	justify-content:flex-end;
-	 
 	opacity: 0;
-   /*  position: absolute;
+    position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
-    right: 0; */
-    transform:translateY(0);
-	 transition: all 0.5s ease .2s;
+    right: 0;
+    transform:translateY(20px);
+	transition: all 0.5s ease .2s;
+	 background-image: linear-gradient(0deg, rgba(12, 17, 26, 0.9) 0%, rgba(20, 29, 43, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
 
 }
 
-
-/* .team-member .team-info .member-info-content {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 40px;
-} */
+ 
+ .team-member .team-info .member-info-content {
+    transform:translateY(20px);
+	transition:all 0.5s ease;
+} 
 
 .team-member .member-info-content h4 {
     font-weight: 700;
@@ -554,9 +578,24 @@ margin-bottom:0;
 .team-member .team-info  .social {
  
     
-	/* transform:translateY(20px); */
-   
-	padding: 6px 0 19px 0;
+	transform:translateY(20px);
+   transition:all .3s ease .2s;
+	padding: 10px 0 30px 0;
+}
+
+
+.team-member :hover .team-member .social{
+	
+	transform:translateY(0);	
+	
+}
+
+
+.team-member:hover .team-member .member-info-content{
+	
+		transform:translateY(0);	
+	
+	
 }
  
  .team-member .social a {
@@ -566,6 +605,13 @@ margin-bottom:0;
     display: inline-block;
 }
 
+ .team-member .social a:hover {
+	 
+	 
+	 color:white;
+	 
+ }
+
 .team-member .social i {
     font-size: 18px;
     margin: 0 2px;
@@ -574,10 +620,9 @@ margin-bottom:0;
 .team-member:hover .team-info {
 	
 	
-    background-color: linear-gradient(0deg, rgba(12, 17, 26, 0.9) 0%, rgba(20, 29, 43, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
     opacity: 1;
-	transform:translateY(-89px);
-	transition: all 0.5s ease;
+	transform:translateY(0);
+	
 }
 	
 	/* .team-member:hover
@@ -600,7 +645,7 @@ margin-bottom:0;
 .price1{
 	
 	background-color:#fff;
-	border-radius:5px;
+	border-radius:10px;
 	box-shadow:0 0 5px 0 #ccc;
 	padding:46px;
 	line-height:40px;
@@ -614,11 +659,39 @@ margin-bottom:0;
 .price2{
 	
 	background-color:#466393;
-	border-radius:5px;
+	border-radius:10px;
 box-shadow:0 0 5px 0 #ccc;
 line-height:38px;
 padding:46px;
 	
+}
+
+
+.price2 sub{
+	
+	font-size: 16px;
+   color: #bababa;
+	
+}
+.price2 sup{
+
+    top: -0.5em;
+    font-size: 20px;
+    left: -3px;
+}
+
+
+.price1 sub{
+	
+	font-size: 16px;
+    color: #bababa;
+	
+}
+.price1 sup{
+
+    top: -0.5em;
+    font-size: 20px;
+    left: -3px;
 }
 
 .price2 p{
@@ -694,7 +767,7 @@ span > b{
 }
 
 .accordion-body {
-     padding: 1px 50px 20px 25px;
+     padding: 1px 50px 20px 50px;
     font-size: 17px;
 }
 
@@ -739,13 +812,13 @@ span > b{
 
 .accordion-button::before {
 	flex-shrink:0;
-	width:29px;
+	width:30px;
 	height:14px;
 	margin:0;
 	content:"";
 	background-image: url(../images/download.svg );  
 	background-repeat: no-repeat;
-	background-repeat:no-repeat;
+	background-position:center;
 	transition:all .2s ease-in-out;
 	
 	
