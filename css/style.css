@@ -15,14 +15,31 @@
 .menu-btn{
 	
     position: absolute;
-    top: 15px;
-    right: 13px;
+    top: 8px;
+    right: -154px;
+    color: #2d405f;
     font-size: 25px;
-    color: white;
+    cursor: pointer;
     background-color: transparent;
     border: 0;
+	transition:0.3s;
+	
+	
 }
 
+.offcanvas-body  ul   a{
+
+    padding:10px 20px;
+    font-size: 18px;
+    color: #2d405f;
+	text-decoration:none;
+
+}
+
+.offcanvas-body  ul   a .active{
+	color: #3b4ef8;
+
+}
 
 
 h1.logo{
@@ -69,6 +86,32 @@ h1.logo > a{
 		
 		
 	}
+	
+	
+	
+	
+	.get-start2{
+		
+	background-color: #e2e5fe;
+	padding: 8px 30px;
+	color: #3b4ef8;
+	width:100%;		
+   
+
+		
+	}
+	
+	
+	.get-start2:hover{
+		
+	color: #fff;
+    background: #3b4ef8;
+		
+		
+	}
+	
+	
+	
 /*------header ends------*/
 
 
@@ -151,11 +194,18 @@ h1.logo > a{
 	
 }
 
+
 .badge{
 	
 	font-size:16px;
 	cursor:pointer;
 	transition: 0.3s;
+}
+
+.badge i{
+	margin-left:8px;
+	
+	
 }
 
 /*======intro2 ends====*/
