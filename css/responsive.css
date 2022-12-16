@@ -10,6 +10,11 @@
 }
 
 
+.intro-image img {
+    width: 100%;
+		}
+
+
 
 
 .title h1{
@@ -167,6 +172,7 @@
 }
  */
 
+
 .price1 {
 	margin-bottom:30px;
 	
@@ -185,6 +191,10 @@
 	
 	
 }
+
+
+
+
 /* .dash{
 	
 	    border-right-style: none;
@@ -212,7 +222,7 @@
 
 /*--------- Large devices (desktops, 992px and up)--------*/
 @media(min-width:992px) {
-
+	
 
 
 
@@ -278,6 +288,82 @@
 
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	.title{
+	
+	
+	padding:263px 0;	
+	
+}
+	
+	.title h1{
+		
+		font-size:36px;
+		
+	}
+	
+	.dash{
+		
+		border-right-style:none;
+		
+	}
+	
+	
+	
+	.dash1{
+		
+		border-left-style:none;
+		
+	}
+	
+	
+	.mble-line{
+	border-bottom-style: solid;
+	border-left-style:solid;
+    border-width: 1px;
+    border-color: #eee;
+		
+		
+	}
+	
+	
+	
+ .footer-box2 {
+	 
+	 padding: 25px 0px 10px;
+	 
+	 
+	 
+ }
+ 
+ 
+ .footer{
+	 
+	 padding: 15px 0 20px 0;
+	 
+	 
+ }
+	
+	
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) 
+{
+
+ .intro-image img {
+    width: 90%;
+		}
+
+
+
+
+	}
+
+
+
 /*=-------Medium devices (tablets, less than 992px)-------*/
 @media (max-width: 991.98px) { 
 
@@ -293,26 +379,10 @@
 }
 
 
-	.title h1{
-		
-		font-size:36px;
-		
-	}
 	
 	
-	.title{
 	
-	
-	padding:236px 0;	
-	
-}
 
-.title{
-	
-	
-	padding:236px 0;	
-	
-}
 
 
 
